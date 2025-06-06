@@ -1,0 +1,12 @@
+docker-compose up -d <Nombre de la imagen>
+
+docker-compose ps -> inspecciona que esta corriendo
+
+docker-compose down -> cierra los servicios que estén corriendo
+
+docker-compose exec postgres bash -> para conectarse a la base de datos local
+
+psql -U admin -d <nombre de la base de datos que declaramos en docker> para entrar a la base de datos
+
+\q -> salir de la base de datos
+
